@@ -6,9 +6,16 @@
 уведомление
 
 
+public class Notification{
+	public void showUserMessage(Note note) {};
+}
 
-
-public Class Note{
+public class Note{
 	private String title;
 	private String body;
 }
+
+public class PopUpMessage
+{
+} 
+
