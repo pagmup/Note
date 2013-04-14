@@ -8,6 +8,8 @@
 
 public class Notification {
 	public void showPopUpMessage() {};
+	
+	public void addNote() {Note note};
 }
 
 public class Note {
@@ -17,5 +19,9 @@ public class Note {
 
 public class PopUpMessage {
 	private String Message;
+}
+
+public class NoteList {
+	private ArrayList<Note> noteList;
 }
 
